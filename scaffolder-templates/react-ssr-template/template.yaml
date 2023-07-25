@@ -33,6 +33,8 @@ spec:
           ui:options:
             allowedKinds:
               - Group
+            allowedOwners:
+              - pfizer-eps
     - title: Choose a location
       required:
         - repoUrl
