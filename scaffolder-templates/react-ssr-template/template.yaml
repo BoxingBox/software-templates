@@ -25,6 +25,18 @@ spec:
           title: Description
           type: string
           description: Help others understand what this website is for.
+        components:
+          title: Select Extensions
+          type: array
+          items:
+            type: string
+            enum:
+              - D1
+              - D2
+              - D3
+              - D4
+          uniqueItems: true
+          ui:widget: checkboxes
         owner:
           title: Owner
           type: string
