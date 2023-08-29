@@ -1,0 +1,11 @@
+
+
+dependencies {
+
+
+${{values.dependency_flag}} '${{values.components[0]}}'
+${{values.dependency_flag_2}} '${{values.components[1]}}'
+${{values.dependencies}} '${{values.components[2]}}'
+${{values.dependencies}} '${{values.components[3]}}'
+
+}
