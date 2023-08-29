@@ -16,7 +16,7 @@ spec:
         - component_id
         - owner
       properties:
-        component_id:
+        addons:
           title: Name
           type: string
           description: Unique name of the component
@@ -67,6 +67,7 @@ spec:
         copyWithoutRender:
           - .github/workflows/*
         values:
+          add_ons: ${{ parameters.addons }}
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
           destination: ${{ parameters.repoUrl | parseRepoUrl }}
