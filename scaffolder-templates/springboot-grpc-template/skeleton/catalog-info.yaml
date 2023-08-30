@@ -1,11 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Aname
-  description: Adescription
-  annotations:
-    github.com/project-slug: Tzoulc
+  name: "dsfsdfsddsfdsfdf"
 spec:
   type: service
+  owner: user:guest
   lifecycle: experimental
-  owner: Tzoulc
