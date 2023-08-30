@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: A name
-  description: A description
+  name: Aname
+  description: Adescription
   annotations:
     github.com/project-slug: Tzoulc
 spec:
